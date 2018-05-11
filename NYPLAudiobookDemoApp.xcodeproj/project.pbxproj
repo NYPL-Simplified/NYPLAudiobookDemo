@@ -17,6 +17,7 @@
 		7B5FC64020A4AE3E0075BDC7 /* AudioEngine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5FC63A20A4AE3E0075BDC7 /* AudioEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7B5FC64220A4AE4B0075BDC7 /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5FC64120A4AE4A0075BDC7 /* PureLayout.framework */; };
 		7B5FC64320A4AE4B0075BDC7 /* PureLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5FC64120A4AE4A0075BDC7 /* PureLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B5FC69920A4E87C0075BDC7 /* ObjCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5FC69820A4E87C0075BDC7 /* ObjCTest.m */; };
 		7BA55A9220A377E600712CAC /* NYPLAudiobookToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA55A8520A3777400712CAC /* NYPLAudiobookToolkit.framework */; };
 		7BA55A9320A377E600712CAC /* NYPLAudiobookToolkit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA55A8520A3777400712CAC /* NYPLAudiobookToolkit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7BA55A9720A377ED00712CAC /* NYPLAEToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA55A7B20A3776E00712CAC /* NYPLAEToolkit.framework */; };
@@ -123,6 +124,8 @@
 		7B159A7B20A37BFE00BA5740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B5FC63A20A4AE3E0075BDC7 /* AudioEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioEngine.framework; path = NYPLAEToolkit/Carthage/Build/iOS/AudioEngine.framework; sourceTree = "<group>"; };
 		7B5FC64120A4AE4A0075BDC7 /* PureLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PureLayout.framework; path = NYPLAEToolkit/Carthage/Build/iOS/PureLayout.framework; sourceTree = "<group>"; };
+		7B5FC69720A4E87C0075BDC7 /* ObjCTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCTest.h; sourceTree = "<group>"; };
+		7B5FC69820A4E87C0075BDC7 /* ObjCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCTest.m; sourceTree = "<group>"; };
 		7BA55A4920A3765800712CAC /* NYPLAudiobookDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYPLAudiobookDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA55A5820A3765A00712CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BA55A7620A3776E00712CAC /* NYPLAEToolkit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NYPLAEToolkit.xcodeproj; path = NYPLAEToolkit/NYPLAEToolkit.xcodeproj; sourceTree = "<group>"; };
@@ -175,6 +178,8 @@
 				7B159A7120A37B8300BA5740 /* AudiobookController.swift */,
 				7BA55A5820A3765A00712CAC /* Info.plist */,
 				7B159A6E20A37B8100BA5740 /* NYPLAudiobookDemoApp-Bridging-Header.h */,
+				7B5FC69720A4E87C0075BDC7 /* ObjCTest.h */,
+				7B5FC69820A4E87C0075BDC7 /* ObjCTest.m */,
 			);
 			path = NYPLAudiobookDemoApp;
 			sourceTree = "<group>";
@@ -334,6 +339,7 @@
 				7B159A7620A37B9400BA5740 /* ViewController.swift in Sources */,
 				7B159A7220A37B8300BA5740 /* AppDelegate.swift in Sources */,
 				7B159A7420A37B8300BA5740 /* AudiobookController.swift in Sources */,
+				7B5FC69920A4E87C0075BDC7 /* ObjCTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

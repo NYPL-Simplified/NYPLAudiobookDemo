@@ -49,7 +49,7 @@ class AudiobookController {
             language: "en"
         )
         
-        guard let audiobook = AudiobookFactory.audiobook(unwrappedJSON) else { return }
+        guard let audiobook = ObjCTest.init(string: json).audiobook else { return }
         if (self.manager == nil) {
             self.manager = DefaultAudiobookManager(
                 metadata: metadata,
