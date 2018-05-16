@@ -242,6 +242,11 @@
 					7BA55A4820A3765800712CAC = {
 						CreatedOnToolsVersion = 9.3;
 						LastSwiftMigration = 0930;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
