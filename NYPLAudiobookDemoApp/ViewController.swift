@@ -1,25 +1,34 @@
 //
 //  ViewController.swift
-//  NYPLAudiobookDemoApp
+//  NYPLAudiobookToolkitDemoApp
 //
-//  Created by Dean Silfen on 5/9/18.
+//  Created by Dean Silfen on 1/16/18.
 //  Copyright © 2018 Dean Silfen. All rights reserved.
 //
 
 import UIKit
+import NYPLAudiobookToolkit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
+    var audiobokController: AudiobookController?
+    var detailVC: AudiobookPlayerViewController?
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.navigationItem.title = "My Books"
+        guard let manager = self.audiobokController?.manager else {
+            return
+        }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        if (self.detailVC == nil) {
+            self.detailVC = AudiobookPlayerViewController(
+                audiobookManager: manager
+            )
+        }
+
+        guard let vc = self.detailVC else {
+            return
+        }
+        self.audiobokController?.configurePlayhead()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
-
