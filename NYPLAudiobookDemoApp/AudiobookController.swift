@@ -28,7 +28,9 @@ class AudiobookController {
     }
 
     init() {
-        let json = ""
+        let fileURL = Bundle.main.url(forResource:"ManifestExample", withExtension: "json")!
+        let json = try! String(contentsOf: fileURL, encoding: .utf8)
+
         guard let data = json.data(using: String.Encoding.utf8) else { return }
         let possibleJson = try? JSONSerialization.jsonObject(with: data, options: [])
         guard let unwrappedJSON = possibleJson as? [String: Any] else { return }
