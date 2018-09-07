@@ -36,9 +36,11 @@ class AudiobookController {
         guard let unwrappedJSON = possibleJson as? [String: Any] else { return }
         guard let JSONmetadata = unwrappedJSON["metadata"] as? [String: Any] else { return }
         guard let title = JSONmetadata["title"] as? String else {
+            print("Audiobook manifest failed to parse title key")
             return
         }
-        guard let authors = JSONmetadata["authors"] as? [String] else {
+        guard let authors = JSONmetadata["author"] as? [String] else {
+            print("Audiobook manifest failed to parse authors key")
             return
         }
         let metadata = AudiobookMetadata(

@@ -13,7 +13,7 @@
   self = [super init];
   if (self) {
     NSData *data = [string dataUsingEncoding:kCFStringEncodingUTF8];
-    NSDictionary<NSString *, id> *json = [NSJSONSerialization JSONObjectWithData:data options:nil error:nil];
+    NSDictionary<NSString *, id> *json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
     self.audiobook = [AudiobookFactory audiobook:json];
     
   }
