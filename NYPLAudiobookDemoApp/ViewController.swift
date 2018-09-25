@@ -10,12 +10,12 @@ import UIKit
 import NYPLAudiobookToolkit
 
 class ViewController: UIViewController{
-    var audiobokController: AudiobookController?
+    var audiobookController: AudiobookController?
     var detailVC: AudiobookPlayerViewController?
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         self.navigationItem.title = "My Books"
-        guard let manager = self.audiobokController?.manager else {
+        guard let manager = self.audiobookController?.manager else {
             return
         }
 
@@ -28,7 +28,7 @@ class ViewController: UIViewController{
         guard let vc = self.detailVC else {
             return
         }
-        self.audiobokController?.configurePlayhead()
+        self.audiobookController?.configurePlayhead()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         self.audiobookLifecycleManager.didFinishLaunching()
         let rootVC = self.window?.rootViewController?.childViewControllers.first as? ViewController
-        rootVC?.audiobokController = self.audiobookController
+        rootVC?.audiobookController = self.audiobookController
 
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(AppDelegate.handleAudioInterruption(_:)),
