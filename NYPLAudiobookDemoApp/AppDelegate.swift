@@ -15,14 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var audiobookController = AudiobookController()
     let audiobookLifecycleManager = AudiobookLifecycleManager()
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         self.audiobookLifecycleManager.didFinishLaunching()
-        let rootVC = self.window?.rootViewController?.childViewControllers.first as? ViewController
+        let rootVC = self.window?.rootViewController?.children.first as? ViewController
         rootVC?.audiobookController = self.audiobookController
 
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(AppDelegate.handleAudioInterruption(_:)),
-                                               name: .AVAudioSessionInterruption,
+                                               name: AVAudioSession.interruptionNotification,
                                                object: AVAudioSession.sharedInstance()
         )
         return true
@@ -31,7 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     @objc func handleAudioInterruption(_ notification: Notification) {
         guard let info = notification.userInfo,
             let typeValue = info[AVAudioSessionInterruptionTypeKey] as? UInt,
-            let type = AVAudioSessionInterruptionType(rawValue: typeValue) else {
+            let type = AVAudioSession.InterruptionType(rawValue: typeValue) else {
                 return
         }
         switch type {
@@ -41,7 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         case .ended:
             // Interruption has ended, lets check if playback should resume
             if let optionsValue = info[AVAudioSessionInterruptionOptionKey] as? UInt {
-                let options = AVAudioSessionInterruptionOptions(rawValue: optionsValue)
+                let options = AVAudioSession.InterruptionOptions(rawValue: optionsValue)
                 if options.contains(.shouldResume) {
                     self.audiobookController.manager?.audiobook.player.play()
                 }

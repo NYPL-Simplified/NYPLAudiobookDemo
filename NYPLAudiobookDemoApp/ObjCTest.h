@@ -11,5 +11,5 @@
 
 @interface ObjCTest : NSObject
 @property (nonatomic, nullable, strong) id<Audiobook> audiobook;
-- (instancetype)initWithString:(NSString *)string;
+- (instancetype)initWithString:(NSString *) string;
 @end
