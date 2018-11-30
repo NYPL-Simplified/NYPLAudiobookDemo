@@ -45,12 +45,7 @@ class AudiobookController {
         }
         let metadata = AudiobookMetadata(
             title: title,
-            authors: authors,
-            narrators: ["John Hodgeman"],
-            publishers: ["Findaway"],
-            published: Date(),
-            modified: Date(),
-            language: "en"
+            authors: authors
         )
         
         guard let audiobook = ObjCTest.init(string: json).audiobook else { return }
