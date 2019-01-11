@@ -28,25 +28,24 @@ class AudiobookController {
     }
 
     init() {
-        let json = ""
+        let fileURL = Bundle.main.url(forResource:"ManifestExample", withExtension: "json")!
+        let json = try! String(contentsOf: fileURL, encoding: .utf8)
+
         guard let data = json.data(using: String.Encoding.utf8) else { return }
         let possibleJson = try? JSONSerialization.jsonObject(with: data, options: [])
         guard let unwrappedJSON = possibleJson as? [String: Any] else { return }
         guard let JSONmetadata = unwrappedJSON["metadata"] as? [String: Any] else { return }
         guard let title = JSONmetadata["title"] as? String else {
+            NSLog("\(#file): Audiobook manifest failed to parse title key")
             return
         }
-        guard let authors = JSONmetadata["authors"] as? [String] else {
+        guard let authors = JSONmetadata["author"] as? [String] else {
+            NSLog("\(#file): Audiobook manifest failed to parse authors key")
             return
         }
         let metadata = AudiobookMetadata(
             title: title,
-            authors: authors,
-            narrators: ["John Hodgeman"],
-            publishers: ["Findaway"],
-            published: Date(),
-            modified: Date(),
-            language: "en"
+            authors: authors
         )
         
         guard let audiobook = ObjCTest.init(string: json).audiobook else { return }

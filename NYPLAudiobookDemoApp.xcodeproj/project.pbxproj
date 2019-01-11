@@ -22,6 +22,7 @@
 		7BA55A9320A377E600712CAC /* NYPLAudiobookToolkit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA55A8520A3777400712CAC /* NYPLAudiobookToolkit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7BA55A9720A377ED00712CAC /* NYPLAEToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA55A7B20A3776E00712CAC /* NYPLAEToolkit.framework */; };
 		7BA55A9820A377ED00712CAC /* NYPLAEToolkit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA55A7B20A3776E00712CAC /* NYPLAEToolkit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E68332DC210A57F700702876 /* ManifestExample.json in Resources */ = {isa = PBXBuildFile; fileRef = E68332DA210A57F700702876 /* ManifestExample.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,27 +46,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 7B544195200EA7C20047B6C6;
 			remoteInfo = NYPLAudiobookToolkitTests;
-		};
-		7BA55A8820A3777400712CAC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7BA55A7C20A3777400712CAC /* NYPLAudiobookToolkit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7B5441AA200EA7E30047B6C6;
-			remoteInfo = NYPLAudiobookToolkitDemoApp;
-		};
-		7BA55A8A20A3777400712CAC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7BA55A7C20A3777400712CAC /* NYPLAudiobookToolkit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7B5441BD200EA7E40047B6C6;
-			remoteInfo = NYPLAudiobookToolkitDemoAppTests;
-		};
-		7BA55A8C20A3777400712CAC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7BA55A7C20A3777400712CAC /* NYPLAudiobookToolkit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7B5441C8200EA7E40047B6C6;
-			remoteInfo = NYPLAudiobookToolkitDemoAppUITests;
 		};
 		7BA55A8E20A377CD00712CAC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -130,6 +110,7 @@
 		7BA55A5820A3765A00712CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BA55A7620A3776E00712CAC /* NYPLAEToolkit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NYPLAEToolkit.xcodeproj; path = NYPLAEToolkit/NYPLAEToolkit.xcodeproj; sourceTree = "<group>"; };
 		7BA55A7C20A3777400712CAC /* NYPLAudiobookToolkit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NYPLAudiobookToolkit.xcodeproj; path = NYPLAudiobookToolkit/NYPLAudiobookToolkit.xcodeproj; sourceTree = "<group>"; };
+		E68332DA210A57F700702876 /* ManifestExample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ManifestExample.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +161,7 @@
 				7B159A6E20A37B8100BA5740 /* NYPLAudiobookDemoApp-Bridging-Header.h */,
 				7B5FC69720A4E87C0075BDC7 /* ObjCTest.h */,
 				7B5FC69820A4E87C0075BDC7 /* ObjCTest.m */,
+				E68332DA210A57F700702876 /* ManifestExample.json */,
 			);
 			path = NYPLAudiobookDemoApp;
 			sourceTree = "<group>";
@@ -197,9 +179,6 @@
 			children = (
 				7BA55A8520A3777400712CAC /* NYPLAudiobookToolkit.framework */,
 				7BA55A8720A3777400712CAC /* NYPLAudiobookToolkitTests.xctest */,
-				7BA55A8920A3777400712CAC /* NYPLAudiobookToolkitDemoApp.app */,
-				7BA55A8B20A3777400712CAC /* NYPLAudiobookToolkitDemoAppTests.xctest */,
-				7BA55A8D20A3777400712CAC /* NYPLAudiobookToolkitDemoAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,7 +220,7 @@
 				TargetAttributes = {
 					7BA55A4820A3765800712CAC = {
 						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 0930;
+						LastSwiftMigration = 1000;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -300,27 +279,6 @@
 			remoteRef = 7BA55A8620A3777400712CAC /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		7BA55A8920A3777400712CAC /* NYPLAudiobookToolkitDemoApp.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = NYPLAudiobookToolkitDemoApp.app;
-			remoteRef = 7BA55A8820A3777400712CAC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		7BA55A8B20A3777400712CAC /* NYPLAudiobookToolkitDemoAppTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = NYPLAudiobookToolkitDemoAppTests.xctest;
-			remoteRef = 7BA55A8A20A3777400712CAC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		7BA55A8D20A3777400712CAC /* NYPLAudiobookToolkitDemoAppUITests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = NYPLAudiobookToolkitDemoAppUITests.xctest;
-			remoteRef = 7BA55A8C20A3777400712CAC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -331,6 +289,7 @@
 				7B159A7C20A37BFF00BA5740 /* Main.storyboard in Resources */,
 				7B159A7320A37B8300BA5740 /* Assets.xcassets in Resources */,
 				7B159A7920A37BFA00BA5740 /* LaunchScreen.storyboard in Resources */,
+				E68332DC210A57F700702876 /* ManifestExample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,7 +488,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "NYPLAudiobookDemoApp/NYPLAudiobookDemoApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -555,7 +514,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.nypl.NYPLAudiobookDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "NYPLAudiobookDemoApp/NYPLAudiobookDemoApp-Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
