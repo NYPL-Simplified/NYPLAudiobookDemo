@@ -1,0 +1,305 @@
+{
+    "readingOrder": [
+        {
+            "rbdigital:id": "1601713",
+            "title": "Introduction",
+            "schema:contentSize": 345920,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1601713/download-url?s3=77699&f=77699_001_IN",
+            "duration": 57,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/0",
+                    "type": "audio/mpeg"
+                }
+            ]
+        },
+        {
+            "rbdigital:id": "1601714",
+            "title": "Chapter 1",
+            "schema:contentSize": 1832216,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1601714/download-url?s3=77699&f=77699_002_C001",
+            "duration": 304.8,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/1",
+                    "type": "audio/mpeg"
+                }
+            ]
+        },
+        {
+            "rbdigital:id": "1601715",
+            "title": "Chapter 1",
+            "schema:contentSize": 3792200,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1601715/download-url?s3=77699&f=77699_003_C001",
+            "duration": 631.8,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/2",
+                    "type": "audio/mpeg"
+                }
+            ]
+        },
+        {
+            "rbdigital:id": "1601716",
+            "title": "Chapter 2",
+            "schema:contentSize": 9230648,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1601716/download-url?s3=77699&f=77699_004_C002",
+            "duration": 1537.8,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/3",
+                    "type": "audio/mpeg"
+                }
+            ]
+        },
+        {
+            "rbdigital:id": "1601717",
+            "title": "Chapter 3",
+            "schema:contentSize": 11542928,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1601717/download-url?s3=77699&f=77699_005_C003",
+            "duration": 1922.9999999999998,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/4",
+                    "type": "audio/mpeg"
+                }
+            ]
+        },
+        {
+            "rbdigital:id": "1601718",
+            "title": "Chapter 4",
+            "schema:contentSize": 11350472,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1601718/download-url?s3=77699&f=77699_006_C004",
+            "duration": 1891.2,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/5",
+                    "type": "audio/mpeg"
+                }
+            ]
+        },
+        {
+            "rbdigital:id": "1601719",
+            "title": "Chapter 5",
+            "schema:contentSize": 7821464,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1601719/download-url?s3=77699&f=77699_007_C005",
+            "duration": 1303.1999999999998,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/6",
+                    "type": "audio/mpeg"
+                }
+            ]
+        },
+        {
+            "rbdigital:id": "1601720",
+            "title": "Chapter 6",
+            "schema:contentSize": 7842200,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1601720/download-url?s3=77699&f=77699_008_C006",
+            "duration": 1306.8000000000002,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/7",
+                    "type": "audio/mpeg"
+                }
+            ]
+        },
+        {
+            "rbdigital:id": "1601721",
+            "title": "Chapter 7",
+            "schema:contentSize": 8617856,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1601721/download-url?s3=77699&f=77699_009_C007",
+            "duration": 1435.8,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/8",
+                    "type": "audio/mpeg"
+                }
+            ]
+        },
+        {
+            "rbdigital:id": "1601722",
+            "title": "Chapter 8",
+            "schema:contentSize": 8888720,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1601722/download-url?s3=77699&f=77699_010_C008",
+            "duration": 1480.8,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/9",
+                    "type": "audio/mpeg"
+                }
+            ]
+        },
+        {
+            "rbdigital:id": "1601723",
+            "title": "Chapter 9",
+            "schema:contentSize": 7677824,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1601723/download-url?s3=77699&f=77699_011_C009",
+            "duration": 1279.2,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/10",
+                    "type": "audio/mpeg"
+                }
+            ]
+        },
+        {
+            "rbdigital:id": "1601724",
+            "title": "Chapter 10",
+            "schema:contentSize": 4954280,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1601724/download-url?s3=77699&f=77699_012_C010",
+            "duration": 825,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/11",
+                    "type": "audio/mpeg"
+                }
+            ]
+        },
+        {
+            "rbdigital:id": "1601725",
+            "title": "Chapter 11",
+            "schema:contentSize": 11902784,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1601725/download-url?s3=77699&f=77699_013_C011",
+            "duration": 1982.9999999999998,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/12",
+                    "type": "audio/mpeg"
+                }
+            ]
+        },
+        {
+            "rbdigital:id": "1601726",
+            "title": "Chapter 12",
+            "schema:contentSize": 6609056,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1601726/download-url?s3=77699&f=77699_014_C012",
+            "duration": 1101,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/13",
+                    "type": "audio/mpeg"
+                }
+            ]
+        },
+        {
+            "rbdigital:id": "1601727",
+            "title": "Chapter 13",
+            "schema:contentSize": 6237536,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1601727/download-url?s3=77699&f=77699_015_C013",
+            "duration": 1039.2,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/14",
+                    "type": "audio/mpeg"
+                }
+            ]
+        },
+        {
+            "rbdigital:id": "1601728",
+            "title": "Chapter 14",
+            "schema:contentSize": 4190288,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1601728/download-url?s3=77699&f=77699_016_C014",
+            "duration": 697.8000000000001,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/15",
+                    "type": "audio/mpeg"
+                }
+            ]
+        },
+        {
+            "rbdigital:id": "1601729",
+            "title": "Chapter 15",
+            "schema:contentSize": 10671152,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1601729/download-url?s3=77699&f=77699_017_C015",
+            "duration": 1777.8,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/16",
+                    "type": "audio/mpeg"
+                }
+            ]
+        },
+        {
+            "rbdigital:id": "1601730",
+            "title": "Chapter 16",
+            "schema:contentSize": 11402312,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1601730/download-url?s3=77699&f=77699_018_C016",
+            "duration": 1900.2,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/17",
+                    "type": "audio/mpeg"
+                }
+            ]
+        },
+        {
+            "rbdigital:id": "1603008",
+            "title": "Chapter 17",
+            "schema:contentSize": 9910184,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1603008/download-url?s3=77699&f=77699_019_C017",
+            "duration": 1651.2,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/18",
+                    "type": "audio/mpeg"
+                }
+            ]
+        },
+        {
+            "rbdigital:id": "1603009",
+            "title": "Chapter 18",
+            "schema:contentSize": 9572576,
+            "href": "https://api.rbdigital.com/v1/media/9781456101725/parts/1603009/download-url?s3=77699&f=77699_020_C018",
+            "duration": 1594.8,
+            "type": "vnd.librarysimplified/rbdigital-access-document+json",
+            "alternates": [
+                {
+                    "href": "http://qa.circulation.librarysimplified.org/works/324930/fulfill/751610/19",
+                    "type": "audio/mpeg"
+                }
+            ]
+        }
+    ],
+    "@context": "http://readium.org/webpub/default.jsonld",
+    "links": [
+        {
+            "href": "https://d2cv0ie6dlin9h.cloudfront.net/77699/77699_image_512x512_iTunes.png",
+            "type": "image/png",
+            "rel": "cover"
+        }
+    ],
+    "metadata": {
+        "publisher": "Recorded Books, Inc.",
+        "narrator": "Ed Sala",
+        "description": "Author Robert Olmstead's work has been called \"brilliant and compelling\" by the Chicago Tribune. Here, he takes us back to the Civil War. Robey Child, only 14, must...",
+        "author": "Robert Olmstead",
+        "title": "Coal Black Horse",
+        "schema:contentSize": 154392616,
+        "rbdigital:hasDrm": true,
+        "duration": 25721.4,
+        "identifier": "9781456101725",
+        "@type": "http://bib.schema.org/Audiobook",
+        "rbdigital:encryptionKey": "0889645c-2cbd-44dd-943d-0a79d23501e0"
+    }
+}
