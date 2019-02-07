@@ -26,6 +26,7 @@
 		A97CE14C21F0011B00B64305 /* ManifestExample.json in Resources */ = {isa = PBXBuildFile; fileRef = A97CE14B21F0011B00B64305 /* ManifestExample.json */; };
 		A97CE15D21F28C8F00B64305 /* coal-black-horse-manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A97CE15B21F28C8E00B64305 /* coal-black-horse-manifest.json */; };
 		A97CE15E21F28C8F00B64305 /* ManifestExample-1.json in Resources */ = {isa = PBXBuildFile; fileRef = A97CE15C21F28C8F00B64305 /* ManifestExample-1.json */; };
+		A9FDACDB220CBE6C008AA06C /* ManifestExample-Axis360.json in Resources */ = {isa = PBXBuildFile; fileRef = A9FDACDA220CBE6C008AA06C /* ManifestExample-Axis360.json */; };
 		E68332DC210A57F700702876 /* ManifestExample-Findaway.json in Resources */ = {isa = PBXBuildFile; fileRef = E68332DA210A57F700702876 /* ManifestExample-Findaway.json */; };
 /* End PBXBuildFile section */
 
@@ -118,6 +119,7 @@
 		A97CE14B21F0011B00B64305 /* ManifestExample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ManifestExample.json; sourceTree = "<group>"; };
 		A97CE15B21F28C8E00B64305 /* coal-black-horse-manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "coal-black-horse-manifest.json"; sourceTree = "<group>"; };
 		A97CE15C21F28C8F00B64305 /* ManifestExample-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ManifestExample-1.json"; sourceTree = "<group>"; };
+		A9FDACDA220CBE6C008AA06C /* ManifestExample-Axis360.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ManifestExample-Axis360.json"; sourceTree = "<group>"; };
 		E68332DA210A57F700702876 /* ManifestExample-Findaway.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ManifestExample-Findaway.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -174,6 +176,7 @@
 				E68332DA210A57F700702876 /* ManifestExample-Findaway.json */,
 				A97CE14B21F0011B00B64305 /* ManifestExample.json */,
 				A97CE12721EA640D00B64305 /* ManifestExample-RBDigital.json */,
+				A9FDACDA220CBE6C008AA06C /* ManifestExample-Axis360.json */,
 			);
 			path = NYPLAudiobookDemoApp;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				7B159A7320A37B8300BA5740 /* Assets.xcassets in Resources */,
 				7B159A7920A37BFA00BA5740 /* LaunchScreen.storyboard in Resources */,
 				E68332DC210A57F700702876 /* ManifestExample-Findaway.json in Resources */,
+				A9FDACDB220CBE6C008AA06C /* ManifestExample-Axis360.json in Resources */,
 				A97CE14C21F0011B00B64305 /* ManifestExample.json in Resources */,
 				A97CE12821EA640D00B64305 /* ManifestExample-RBDigital.json in Resources */,
 				A97CE15D21F28C8F00B64305 /* coal-black-horse-manifest.json in Resources */,
