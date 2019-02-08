@@ -39,10 +39,7 @@ class AudiobookController {
             NSLog("\(#file): Audiobook manifest failed to parse title key")
             return
         }
-        guard let authors = JSONmetadata["author"] as? [String] else {
-            NSLog("\(#file): Audiobook manifest failed to parse authors key")
-            return
-        }
+        let authors = JSONmetadata["author"] as? [String] ?? [""]
         let metadata = AudiobookMetadata(
             title: title,
             authors: authors
